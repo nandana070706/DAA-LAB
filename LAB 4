@@ -1,6 +1,5 @@
 public class knapsack_sort {
-
-    static int knapsack(int[] weights, int[] values, int capacity) {
+static int knapsack(int[] weights, int[] values, int capacity) {
         int n = values.length;
         int[][] dp = new int[n + 1][capacity + 1];
 
